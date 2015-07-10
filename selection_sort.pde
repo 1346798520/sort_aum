@@ -47,14 +47,12 @@ void draw() {
             if(temp != i) {             
                 bh[temp] = bh[i];
                 bh[i] = min;
-                clear();
+                background(0);
                 for(int k = 0; k < size; k++) {
                     if( k <= i) fill(255,0,255);
                     else fill(144,196,255);
                     rect((bw + 7) * k + 50, bhmax - bh[k]+ 30, bw, bh[k]*2);
                 }
-              //  fill(144,196,255);
-              //  rect((bw + 7) * temp + 50, bhmax - bh[temp]+ 30, bw, bh[temp]*2);
                 fill(255,0,255);//purple---ok
                 rect((bw + 7) * i + 50, bhmax - bh[i]+ 30, bw, bh[i]*2);
                 delay(dly);
