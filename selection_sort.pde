@@ -77,3 +77,4 @@ void draw() {
         rect((bw + 7) * i + 50, bhmax - bh[i]+ 30, bw, bh[i]*2);
     }
 }
+
