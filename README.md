@@ -1,3 +1,3 @@
 # sort_anm
-Visual Sorting: selection sort
+Visual Sorting: selection sort  
 Application: Processing
